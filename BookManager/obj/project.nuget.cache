@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fn6wW8nax3Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager\\BookManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iammu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\iammu\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
