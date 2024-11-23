@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager\\BookManager.csproj": {}
+    "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager\\BookManager.csproj": {
+    "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager\\BookManager.csproj",
+        "projectUniqueName": "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager.csproj",
         "projectName": "BookManager",
-        "projectPath": "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager\\BookManager.csproj",
+        "projectPath": "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager.csproj",
         "packagesPath": "C:\\Users\\iammu\\.nuget\\packages",
-        "outputPath": "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\BookManager\\obj\\",
+        "outputPath": "C:\\Users\\iammu\\source\\repos\\github-actions-deploy-dotnet-webapi-to-amazon-ecs\\BookManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,12 +50,6 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
