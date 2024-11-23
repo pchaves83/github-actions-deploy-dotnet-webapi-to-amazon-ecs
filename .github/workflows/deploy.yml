@@ -56,6 +56,9 @@ jobs:
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
+      - name: 🛠️ Checkout Repository
+        uses: actions/checkout@v4
+
       - name: 🔐 Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -65,7 +68,7 @@ jobs:
       - name: 🚀 Deploy to Amazon ECS
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
-          task-definition: deployments/ecs-task-definition.json
+          task-definition: ./deployments/ecs-task-definition.json
           service: bookmanager
           cluster: dev-cluster
           wait-for-service-stability: true
